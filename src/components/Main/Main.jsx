@@ -166,7 +166,7 @@ function Main() {
 
             }
             {
-                africanShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/3.png' alt='1' /><Button variant="dark" onClick={(e) => {
+                africanShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/3.png' alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -176,7 +176,7 @@ function Main() {
 
             }
             {
-                europeanShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/4.png' alt='1' /><Button variant="dark" onClick={(e) => {
+                europeanShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/4.png' alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -186,7 +186,7 @@ function Main() {
 
             }
             {
-                malaysianShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/11/woods-O2-05.png' alt='1' /><Button variant="dark" onClick={(e) => {
+                malaysianShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/11/woods-O2-05.png' alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
@@ -196,7 +196,7 @@ function Main() {
 
             }
             {
-                americanShow === true ? <div className='img'> <img src="https://wood.digit-tips.com/wp-content/uploads/2022/12/2.png" alt='1' /><Button variant="dark" onClick={(e) => {
+                americanShow === true ? <div className='img'> <img src="https://wood.digit-tips.com/wp-content/uploads/2022/12/2.png" alt='1' /><Button className="buttonBlack" variant="dark" onClick={(e) => {
                     setrHardShow(true);
                     setAfricanShow(false);
                     setEuropeanShow(false);
