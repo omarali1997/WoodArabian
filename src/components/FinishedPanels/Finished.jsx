@@ -53,7 +53,7 @@ const Image=()=> {
       alt: "Film faced plywood",
       details: null,
     },
-    // Add more images here
+
   ];
   return (
     <div className="hoverImg">
@@ -83,12 +83,6 @@ const Image=()=> {
         </Card.Footer>
         ):""}
       </Card>
-      {/* <Image
-          key={image.src}
-          src={image.src}
-          alt={image.alt}
-          details={image.details != null ? image.details : ""}
-        /> */}
       </>
     ))}
   </div>
