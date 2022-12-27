@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Main.css'
 import Button from 'react-bootstrap/Button';
 import ImageGallery from '../FinishedPanels/Finished'
+import Laminates from '../Laminates/Laminates'
 
 
 
@@ -23,6 +24,26 @@ function Main() {
         <div className='Main'>
             <div className='btn-div'>
 
+                
+                
+                
+                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
+                    e.preventDefault();
+                    setrHardShow(false);
+                    setrSoftShow(false);
+                    setrFinishedShow(false);
+                    setrLaminatesShow(true);
+                    setrRawShow(false);
+
+                    setAfricanShow(false);
+                    setEuropeanShow(false);
+                    setMalaysianShow(false);
+                    setrAmericanShow(false);
+                }}
+                >
+                    رقائق
+                </Button>
+                
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
                     setrHardShow(true);
@@ -76,22 +97,6 @@ function Main() {
                     setrHardShow(false);
                     setrSoftShow(false);
                     setrFinishedShow(false);
-                    setrLaminatesShow(true);
-                    setrRawShow(false);
-
-                    setAfricanShow(false);
-                    setEuropeanShow(false);
-                    setMalaysianShow(false);
-                    setrAmericanShow(false);
-                }}
-                >
-                    رقائق
-                </Button>
-                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
-                    e.preventDefault();
-                    setrHardShow(false);
-                    setrSoftShow(false);
-                    setrFinishedShow(false);
                     setrLaminatesShow(false);
                     setrRawShow(true);
 
@@ -103,6 +108,10 @@ function Main() {
                 >
                     الألواح الخام
                 </Button>
+
+
+
+
             </div>
 
 
@@ -158,7 +167,7 @@ function Main() {
 
             }
             {
-                LaminatesShow === true ? <div className='img'> <img src='https://wood.digit-tips.com/wp-content/uploads/2022/09/LaminatesAR.png' alt='1' /></div> : ""
+                LaminatesShow === true ? <Laminates/> : ""
 
             }
             {
