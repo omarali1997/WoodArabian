@@ -25,12 +25,11 @@ const Image = () => {
   ];
   return (
     <>
-      <div className="main">
-        <h6>
-         فورمايكا
+      <h6 className="h6main">
+                 فورمايكا
         </h6>
-        <img src='https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate1.png' alt='woodgg' />
-      </div>
+        <img className="main" src='https://wood.digit-tips.com/wp-content/uploads/2022/12/Laminate1.png' alt='woodgg' />
+
       <div className="hoverImg">
         {images.map((image) => (
           <>
