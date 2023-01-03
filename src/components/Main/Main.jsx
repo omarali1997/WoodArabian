@@ -44,38 +44,8 @@ function Main() {
                     فورمايكا
                 </Button>
                 
-                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
-                    e.preventDefault();
-                    setrHardShow(true);
-                    setrSoftShow(false);
-                    setrFinishedShow(false);
-                    setrLaminatesShow(false);
-                    setrRawShow(false);
-
-                    setAfricanShow(false);
-                    setEuropeanShow(false);
-                    setMalaysianShow(false);
-                    setrAmericanShow(false);
-                }}
-                >
-                    الاخشاب الصلبة
-                </Button>
-                <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
-                    e.preventDefault();
-                    setrHardShow(false);
-                    setrSoftShow(true);
-                    setrFinishedShow(false);
-                    setrLaminatesShow(false);
-                    setrRawShow(false);
-
-                    setAfricanShow(false);
-                    setEuropeanShow(false);
-                    setMalaysianShow(false);
-                    setrAmericanShow(false);
-                }}
-                >
-                    الاخشاب اللينة
-                </Button>
+                
+                
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
                     setrHardShow(false);
@@ -108,8 +78,38 @@ function Main() {
                 >
                     الألواح خام
                 </Button>
+<Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
+                    e.preventDefault();
+                    setrHardShow(false);
+                    setrSoftShow(true);
+                    setrFinishedShow(false);
+                    setrLaminatesShow(false);
+                    setrRawShow(false);
 
+                    setAfricanShow(false);
+                    setEuropeanShow(false);
+                    setMalaysianShow(false);
+                    setrAmericanShow(false);
+                }}
+                >
+                    الاخشاب اللينة
+                </Button>
+<Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
+                    e.preventDefault();
+                    setrHardShow(true);
+                    setrSoftShow(false);
+                    setrFinishedShow(false);
+                    setrLaminatesShow(false);
+                    setrRawShow(false);
 
+                    setAfricanShow(false);
+                    setEuropeanShow(false);
+                    setMalaysianShow(false);
+                    setrAmericanShow(false);
+                }}
+                >
+                    الاخشاب الصلبة
+                </Button>
 
 
             </div>
