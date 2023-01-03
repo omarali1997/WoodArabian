@@ -19,6 +19,8 @@
     .card_finishedPanel {
         width: 61px !important;
         align-items: center;
+        background-color:#CFC1B8 !important;
+        border:none;
     }
 
     .hoverImg h6 {
@@ -44,6 +46,8 @@
     .card_finishedPanel {
         width: 200px !important;
         align-items: center;
+        background-color:#CFC1B8 !important;
+        border:none;
     }
 
     .hoverImg h6 {
@@ -69,6 +73,8 @@
     .card_finishedPanel {
         width: 132px !important;
         align-items: center;
+        background-color:#CFC1B8 !important;
+        border:none;
     }
 
     .hoverImg h6 {
@@ -95,6 +101,8 @@
     .card_finishedPanel {
         width: 170px !important;
         align-items: center;
+        background-color:#CFC1B8 !important;
+        border:none;
 
     }
 
