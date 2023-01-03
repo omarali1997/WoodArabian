@@ -41,7 +41,7 @@ function Main() {
                     setrAmericanShow(false);
                 }}
                 >
-                    رقائق
+                    فورمايكا
                 </Button>
                 
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
@@ -58,7 +58,7 @@ function Main() {
                     setrAmericanShow(false);
                 }}
                 >
-                    خشب صلب
+                    الاخشاب الصلبة
                 </Button>
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
@@ -74,7 +74,7 @@ function Main() {
                     setrAmericanShow(false);
                 }}
                 >
-                    خشب ناعم
+                    الاخشاب اللينة
                 </Button>
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
@@ -90,7 +90,7 @@ function Main() {
                     setrAmericanShow(false);
                 }}
                 >
-                    اللوحات النهائية
+                    الالواح الجاهزة	
                 </Button>
                 <Button className='btn' variant="dark" style={{ backgroundColor: '#7B513C', borderRadius: "15px", border: "0px" }} onClick={(e) => {
                     e.preventDefault();
@@ -106,7 +106,7 @@ function Main() {
                     setrAmericanShow(false);
                 }}
                 >
-                    الألواح الخام
+                    الألواح خام
                 </Button>
 
 
